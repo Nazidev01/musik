@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+a {
+    text-decoration:  none;
+}
+#header {
+    background: linear-gradient(74.79deg, #FF9292 -7.33%, #DE5150 90.21%);
+
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav-ion-icon ion-icon  {
+    margin: 0 30px ;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #FF4948;
+    color: #DE5150;
+    /*width: 30px;*/
+    /*height: 30px;*/
+    padding: 10px 10px ;
+    font-size: 15px;
+}
+.header-nav-ion-icon2 ion-icon {
+    border-radius: 50%;
+    background: #DE5150;
+    color: white;
+    /*border: 1px solid #FF4948;*/
+    /*width: 30px;*/
+    /*height: 30px;*/
+    padding: 10px 10px ;
+    font-size: 30px;
+}
+
+
+
+#hero {
+    background: linear-gradient(74.79deg, #FF9292 -7.33%, #DE5150 90.21%);
+    padding: 100px 0 ;
+
+}
+.hero-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-block-text {
+    margin-right: 200px;
+}
+.hero-block-text h6 {
+    color: white;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 140%;
+    padding: 20px 0 ;
+}
+.hero-block-text h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: white;
+}
+.hero-block-text h3 {
+    font-weight:200 ;
+    font-size: 20px;
+    color: white;
+    padding: 40px 0 10px 0 ;
+}
+.hero-block-text h3 span {
+    color: rgba(242, 255, 255, 0.56);
+}
+.hero-block-text button {
+    color:#FF4948 ;
+    background: white;
+    border-radius: 30px;
+    font-size: 20px;
+    border: red;
+    padding: 10px 40px ;
+    transition: .4s;
+}
+
+.hero-block-text button:hover {
+    transform: scale(1.1);
+    color: white;
+    background: rgba(213, 92, 92, 0.7);
+    border: 1px solid white;
+}
+
+
+
+#swiper {
+    background: white;
+    padding: 50px 0 ;
+}
+
+ body {
+     position: relative;
+     height: 100%;
+ }
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.swiper-h1 {
+    font-weight: 700;
+    font-size: 44px;
+    color: #180202;
+    /*margin-left: 450px;*/
+    margin: 30px 0 ;
+    padding: 30px 0 ;
+    text-align: center;
+
+}
+#good {
+    background: white;
+    padding: 50px 0 ;
+}
+
+.good-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.good-block-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.good-block-title ion-icon {
+    background: white;
+    border: 1px solid #FF4948;
+    border-radius: 50px;
+    padding: 20px 20px;
+    margin-right: 20px;
+    color: #DE5150;
+    font-size: 30px;
+}
+.good-block-title div h3 {
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 140%;
+    color: #180202;
+
+}
+.good-block-title div h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #180202;
+    opacity: 0.7;
+}
+.good-block-title div h5 {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FF4948;
+
+}
+.good-block-text-good div  {
+    margin: 10px 0;
+}
+.good-h1 {
+    width: 480px;
+    font-weight: 700;
+    font-size: 44px;
+    color: #180202;
+    margin-left: 180px;
+
+}
+
+#product {
+    background: white;
+    padding: 50px 0 ;
+}
+.product  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-ion-icon {
+    display: flex;
+    /*align-items: center;;*/
+}
+.product-text {
+    display: flex;
+    /*align-items: center;;*/
+    margin: 10px 0 ;
+
+}
+
+.product-text h4 {
+    font-weight: 400;
+    font-size: 22px;
+    color: #180202;
+}
+.product-text div h5 {
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    color: #180202;
+    margin-left: 110px;
+}
+.product-ion-icon ion-icon {
+    width: 30.41px;
+    height: 30.41px;
+    left: 286.41px;
+    top: 3013px;
+    color:  #FDAE38;
+    border-radius: 1px;
+}
+.product-ion-icon div h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #180202;
+    margin-left: 150px;
+}
+.product-h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    color: #180202;
+    margin: 10px 0 ;
+}
+.product-p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #180202;
+    opacity: 0.7;
+    margin: 0 0 40px 0 ;
+}
+.product-img-img1 {
+    background: url("./img/albom.png") no-repeat center /cover;
+    width: 332px;
+}
+.product-img-img2 {
+    background: url("./img/album2.png") no-repeat center/cover;
+    width: 332px;
+}
+.product-img-img3 {
+    background: url("./img/album3.png") no-repeat center/cover;
+    width: 332px;
+}
+
+
+#ever {
+    background: white;
+    padding: 50px 0 ;
+}
+.ever-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ever-title  div h1 {
+    width: 390px;
+    font-weight: 700;
+    font-size: 44px;
+    color: #000000;
+    margin: 50px 0 ;
+
+}
+.ever-title  div p {
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    opacity: 0.7;
+    margin: 20px 0 ;
+}
+.ever-title div ion-icon {
+    border: 2px solid #000000;
+    border-radius: 50px;
+    background: white;
+    color: black;
+    margin-right: 10px;
+    align-items: center;
+    font-size: 10px;
+}
+#sub {
+    background: white;
+    padding: 50px;
+}
+
+.sub-block {
+    background: #FFF4F4;
+    border-radius: 20px;
+    padding: 50px 50px ;
+    width: 700px;
+    margin-left: 210px;
+}
+.sub-block h1 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    color: #180202;
+    margin: 30px 0 10px 0  ;
+}
+.sub-block p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #180202;
+    opacity: 0.7;
+    margin: 0 0 30px 0 ;
+}
+.sub-block div {
+    text-align: center;
+}
+.sub-block div input {
+    border: none ;
+    border-radius: 30px ;
+    background: white;
+    padding: 20px 100px ;
+}
+.sub-block div button {
+    background: #d72929;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 22px;
+    transition: .4s;
+}
+.sub-block div button:hover {
+    transform: scale(1.1);
+    color: red;
+    background: white;
+    border: 1px solid red;
+}
+
+#foot {
+    background: #DE5150;
+    padding: 10px 0 ;
+}
+
+.foot-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.foot-footer div a {
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    transform: rotate(-0.24deg);
+    /*margin: 0 20px;*/
+    margin-left: 70px;
+}
+.foot-footer ion-icon {
+    color: #DE5150;
+    border-radius: 50px;
+    background: white;
+    font-size: 20px;
+    margin: 0 10px ;
+    border: 2px solid #FF4948;
+    padding: 10px 10px ;
+}
